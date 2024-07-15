@@ -113,7 +113,7 @@ export function CreateTripPage() {
 
     const {tripId} = response.data
 
-    navigate(`"/trips/${tripId}`);
+    navigate(`/trips/${tripId}`);
   }
 
   return (
